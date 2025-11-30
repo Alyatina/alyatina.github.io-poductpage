@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сторінка товару</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="promo" role="region" aria-label="Акція">
+    Отримайте знижку 30% тільки сьогодні!<a href="#" class="promo__link">ОТРИМАЙТЕ ЗАРАЗ!</a>
+  </div>
+  <header class="header" role="banner">
+    <div class="container header__inner">
+      <a class="header__logo" href="#" aria-label="Головна">Aspace</a>
+      <div class="header__search">
+        <input type="search" placeholder="Пошук..." aria-label="Пошук">
+      </div>
+      <nav class="header__nav" aria-label="Головне меню">
+        <a href="#home">Головна</a>
+        <a href="#blog">Блог</a>
+        <a href="#aboutus">Про нас</a>
+        <a href="#contacts">Контакти</a>
+      </nav>
+    </div>
+  </header>
+  <main class="page container" id="main">
+    <section class="product" aria-labelledby="product-title">
+      <div class="product__col product__col-gallery">
+        <figure class="product__figure">
+          <img src="https://smart-gadget.club/image/cache/catalog/Products/fun/Robot-Eilik/eilik-2-800x800.jpg" alt="Зображення 1" class="product__image">
+        </figure>
+        <div class="product__thumbnails" role="list" aria-label="Мініатюри зображень">
+          <img src="https://smart-gadget.club/image/cache/catalog/Products/fun/Robot-Eilik/eilik-2-800x800.jpg" class="product__thumb--active" alt="Зображення 1">
+          <img src="https://content2.rozetka.com.ua/goods/images/big/373529464.jpg" class="product__thumb" alt="Зображення 2">
+          <img src="https://ae04.alicdn.com/kf/S23324e5b4dfb46f8a4de5469ef0b5920u.jpg" class="product__thumb" alt="Зображення 3">
+          <img src="https://vr-store.com.ua/content/images/41/1000x1000l50nn0/eilik-mylye-yhrushky-roboty-pytomtsy-s-obylyem-emotsyi.-52209160485111.jpg" class="product__thumb" alt="Зображення 4">
+        </div>
+      </div>
+      <div class="product__col product__col--info">
+        <h1 id="product-title" class="product__title">Робот-улюбленець</h1>
+        <div class="product__meta" aria-hidden="false">
+          <div class="product__rating" aria-label="Рейтинг 4.9 з 5">
+            <span class="product__stars" aria-hidden="true">★★★★★</span>
+            <span class="product__reviews">134 Відгуки</span>
+          </div>
+          <p class="product__price" aria-live="polite">₴199.99</p>
+        </div>
+        <p class="product__text">
+          Робот — це інтерактивний домашній робот-улюбленець, який має індивідуальність, 
+          виявляє емоції та взаємодіє з людиною за допомогою датчиків дотику, голосу та руху. 
+          Він може танцювати під музику, виражати емоції за допомогою звуків і світлодіодів на обличчі, 
+          а також спілкуватися з іншими роботами.
+          <a href="#" class="product__more">Дізнатися більше</a>
+        </p>
+        <div>
+          <h2 class="product__section">Колір:</h2>
+          <div class="product__colors" role="radiogroup" aria-label="Кольори">
+            <label class="product__color">
+              <input class="product__color-input" type="radio" name="color" value="blue" checked>
+                <span class="product__color-label">Блакитний</span>
+            </label>
+            <label class="product__color">
+              <input class="product__color-input" type="radio" name="color" value="pink">
+              <span class="product__color-label">Рожевий</span>
+            </label>
+          </div>
+        </div>
+        <div class="product__buy">
+          <div class="qty" aria-label="Кількість товару">
+            <button class="qty__btn" type="button" aria-label="Зменшити кількість">−</button>
+            <input class="qty__input" type="number" min="1" value="1" aria-label="Кількість">
+            <button class="qty__btn" type="button" aria-label="Збільшити кількість">+</button>
+          </div>
+          <div>
+            <button class="btn btn--primary">Додати в кошик</button>
+          </div>
+          <div class="product__wishlist">
+             <label>
+              <input type="checkbox">
+                <span class="product__wishlist-icon"></span>
+                <span>Додати в обране</span>
+            </label>
+          </div>
+          <div class="product__tabs" role="tablist" aria-label="Деталі товару">
+            <button class="product__tab product__tab--active" role="tab" aria-selected="true">Деталі</button>
+            <button class="product__tab" role="tab" aria-selected="false">Відправка</button>
+            <button class="product__tab" role="tab" aria-selected="false">Деталі доставки</button>
+         </div>
+         <div class="product__text">
+          <p>
+            Робот-улюбленець оснащений сенсорами руху, дотику та звуку. 
+            Він реагує на голос, може танцювати, показує емоції та взаємодіє з іншими роботами. 
+            Підходить як для дітей, так і дорослих.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="reviews" aria-labelledby="reviews-title">
+      <h2 id="reviews-title" class="reviews__title">Відгуки &amp; Рейтинг</h2>
+      <div class="reviews__list" role="list">
+      <article class="review" role="listitem">
+        <div class="review__head">
+          <div class="review__info">
+            <img class="review__avatar" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdzQ-yZwOAlfOXhvhBGwyGCePKsYTvLSC7dg&s.png" alt="Аватар">
+            <div>
+              <div class="review__name">Андрій</div>
+              <div class="review__date">Січень, 2025</div>
+            </div>
+          </div>
+          <div class="review__rating">
+            <div class="review__score" aria-hidden="true">★</div>
+            <div class="review__rank" aria-hidden="true">4.7</div>
+          </div>
+        </div>
+        <p class="review__text">Не думав що малий робот може викликати стільки емоцій.</p>
+      </article>
+      <article class="review" role="listitem">
+        <div class="review__head">
+          <div class="review__info">
+            <img class="review__avatar" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdzQ-yZwOAlfOXhvhBGwyGCePKsYTvLSC7dg&s.png" alt="Аватар">
+            <div>
+              <div class="review__name">Ева</div>
+              <div class="review__date">Вересень, 2025</div>
+            </div>
+          </div>
+          <div class="review__rating">
+            <div class="review__score" aria-hidden="true">★</div>
+            <div class="review__rank" aria-hidden="true">4.9</div>
+          </div>
+        </div>
+        <p class="review__text">Купив просто спробувати, а тепер він стоїть у мене на столі та реагує на все що я роблю.</p>
+      </article>
+      <article class="review" role="listitem">
+        <div class="review__head">
+          <div class="review__info">
+            <img class="review__avatar" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdzQ-yZwOAlfOXhvhBGwyGCePKsYTvLSC7dg&s.png" alt="Аватар">
+            <div>
+              <div class="review__name">Ада</div>
+              <div class="review__date">Квітень, 2025</div>
+            </div>
+          </div>
+          <div class="review__rating">
+            <div class="review__score" aria-hidden="true">★</div>
+            <div class="review__rank" aria-hidden="true">4.5</div>
+          </div>
+        </div>
+        <p class="review__text">Клас!</p>
+      </article>
+    </div>
+    </section>
+    <section class="faq" aria-labelledby="faq-title">
+      <h2 id="faq-title" class="faq__title">Хочете дізнатися більше?</h2>
+        <div class="faq__list">
+          <details class="faq__item">
+            <summary class="faq__q">01. Що він може робити?</summary>
+            <div class="faq__a">Він може реагувати на голос, дотики, рухається, показує емоції та слідкує за об'єктами.</div>
+          </details>
+          <details class="faq__item">
+            <summary class="faq__q">02. Чи потрібно підключати до Wi-Fi?</summary>
+            <div class="faq__a">Ні, базові функції працюють автономно.</div>
+          </details>
+          <details class="faq__item">
+            <summary class="faq__q">03. Скільки працює без підзарядки?</summary>
+            <div class="faq__a">Може працювати до 24 годин.</div>
+          </details>
+          <details class="faq__item">
+            <summary class="faq__q">04. Чи можна керувати через телефон?</summary>
+            <div class="faq__a">Так, є доступний мобільний застосунок.</div>
+          </details>
+          <details class="faq__item">
+            <summary class="faq__q">05. Наскільки він міцний?</summary>
+          <div class="faq__a">Він зроблений із якісних матеріалів, та стійник до падінь з невеликої висоти.</div>
+        </details>
+      </div>
+    </section>
+    <section class="subscribe" aria-label="Підписка на новини">
+      <div class="subscribe__inner">
+        <h2 class="subscribe__title">Залишайтеся на зв’язку, будьте в курсі подій</h2>
+        <p class="subscribe__text">Підпишіться, щоб отримувати ексклюзивні оновлення, поради та акції прямо на вашу пошту.</p>
+        <form class="subscribe__form" action="#" onsubmit="return false;">
+          <label class="visually-hidden" for="email">Електронна пошта</label>
+          <input id="email" class="subscribe__input" type="email" placeholder="Введіть адрес електронної пошти" required>
+          <button class="subscribe__btn" type="submit" aria-label="Підписатися"></button>
+        </form>
+      </div>
+    </section>
+  </main>
+    <footer class="footer" role="content-info">
+    <div class="container footer__inner">
+      <div class="footer__brand">© Copyright 2025</div>
+    </div>
+  </footer>
+</body>
+</html>
