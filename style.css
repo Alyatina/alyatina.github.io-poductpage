@@ -135,7 +135,7 @@ body {
     opacity: 1;
 }
 .product__thumb:hover, .tab:hover, .btn:hover, .product__color:hover {
-    transform: translateY(-2px);
+    transform: translateY(-4px);
     transition: transform .18s ease;
 }
 .product__thumbnails {
@@ -155,7 +155,7 @@ body {
     object-fit: cover;
 }
 .product__thumbnails img:hover {
-    transform: translateY(-2px);
+    transform: translateY(-4px);
     box-shadow: 5px 6px 18px rgba(255,255,255,0.25);
     border-color: var(--accent-color-2);
     opacity: 0.95;
@@ -592,4 +592,5 @@ body {
     .subscribe__form { flex-direction:column; gap:8px; }
     .subscribe__input { width: 100%; max-width: 420px; }
     .subscribe__btn { width: 80px; }
+
 }
