@@ -1,4 +1,4 @@
-:root{
+:root {
     --main-color: #f3f3f1;
     --card: #ffffff;
     --accent-color: #433986;
@@ -23,7 +23,7 @@ body {
     -webkit-font-smoothing: antialiased;
     line-height: 1.45;
 }
-.container{
+.container {
     width:calc(100% - 40px);
     max-width:var(--max-width);
     margin:0 auto;
@@ -594,3 +594,4 @@ body {
     .subscribe__btn { width: 80px; }
 
 }
+
